@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .grid > div {
+    background-color: #CCC;
+    border: solid 1px #999;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-auto-rows: 
+    /* grid-template-rows: 100px 200px; /
+} */
+
+/* Les sélecteurs d'éléments descendants
+    Le combinateur   (espace) permet de sélectionner les nœuds qui sont des descendants (pas nécessairement des fils directs) d'un élément donné. */
+.test  p {
+    color: green;
+}
+
+/* Les sélecteurs d'éléments fils
+    Le combinateur '>' permet de sélectionner les nœuds qui sont des fils directs d'un élément donné. */
+.testenfant > p {
+    color: red;
+} 
+
+/* Les sélecteurs de voisins
+    Le combinateur '~' permet de sélectionner les nœuds qui suivent un élément et qui ont le même parent. */
+.paragraphe ~ p {
+    color: yellow;
+}
+
+/* Les sélecteurs d'éléments fils
+    Le combinateur '>' permet de sélectionner les nœuds qui sont des fils directs d'un élément donné. */
+.testenfantenfant > p {
+    color: blue;
+}
+
+/* Les sélecteurs de voisin direct
+    Le combinateur '+' permet de sélectionner les nœuds qui suivent immédiatement un élément donné.
+    Syntaxe : A + B
+    Exemple : div + p permettra de cibler n'importe quel élément <p> qui suit immédiatement un élément <div>. */
+    .paragraphe + p {
+        color: gray;
+    } 
+
+    /* Le combinateur de colonne
+    Le combinateur || sélectionne les nœuds qui appartiennent à une colonne. Syntaxe : A || B
+    Exemple : col || td permettra de cibler n'importe quel élément <td> sous la portée d'une colonne <col>. */
